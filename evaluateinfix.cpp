@@ -63,9 +63,9 @@ int main(){
             coolppl.pop();
             int temp2;
             if (ch == '+') {
-            int temp2 = coolppl.stacktop() + temp;
-            coolppl.pop();
-            coolppl.push(temp2);
+                int temp2 = coolppl.stacktop() + temp;
+                coolppl.pop();
+                coolppl.push(temp2);
             } 
             else if (ch == '-') {
                 int temp2 = coolppl.stacktop() - temp;

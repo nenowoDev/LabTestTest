@@ -85,7 +85,7 @@ int getpres(char a){
 
 int main(){
 
-    string a="(b*b+4*a*c)/(2*a)";
+    string a="2+2*4/2";
 
     string neww;
 
